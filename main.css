@@ -1,0 +1,94 @@
+body {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  background: green;
+}
+
+h1 {
+  color: green;
+  font-family: 'New Rocker', cursive;
+  -webkit-text-stroke: 0.3px white;
+  font-size: 60px;
+  bottom: 0;
+  position: absolute;
+  left: 300px;
+}
+
+h4 {
+  color: red;
+  font-family: 'New Rocker', cursive;
+  -webkit-text-stroke: 0.1px white;
+  font-size: 25px;
+  bottom: 135px;
+  position: absolute;
+  left: 627px;
+}
+
+p {
+  color: green;
+  font-family: 'New Rocker', cursive;
+}
+.cloud {
+	position: absolute;
+	max-width: 1000px;
+	left: 0;
+	top: 0;
+}
+.grimes {
+max-width: 700px;
+position: absolute;
+left: 500px;
+bottom: 200px;
+}
+
+.grimes:hover {
+  cursor: pointer;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.music {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 30%;
+}
+
+.music:hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 100%;
+  box-shadow: 0px 0px 50px #c80de0;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.description {
+	position: absolute;
+	max-width: 475px;
+	float: right;
+	top: 100px;
+	right: 80px;
+	text-align: right;
+	color: white;
+	font-family: 'Krona One', sans-serif;
+	font-size: 14px;
+}
